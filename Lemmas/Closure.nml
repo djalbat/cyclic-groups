@@ -1,0 +1,27 @@
+Variable g
+Variable h
+
+Lemma (CyclicGroupClosure)
+  Suppose 
+    g is an element of C₁
+    h is an element of C₁
+  Then
+    g ● h is an element of C₁
+  Proof
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
+    g = e₀ by BiconditionalImplicationLeftElimination
+    h is an element of C₁ iff h = e₀ by CyclicGroupElement
+    h is an element of C₁
+    h = e₀ by BiconditionalImplicationLeftElimination
+    e₀ is an element of C₁ by CyclicGroupSingleElement
+    e₀ ● e₀ = e₀ by CyclicGroupOperation
+    e₀ ● e₀ is an element of C₁
+  Therefore
+    g ● h is an element of C₁
+
+###
+Lemma
+  ●, C₁ satisfy Closure
+  Proof
+    ●, C₁ satisfy Closure by ClosureOfCyclicGroup

@@ -1,0 +1,7 @@
+Lemma (CyclicGroupSingleElement)
+  e₀ is an element of C₁
+  Proof
+    e₀ is an element of C₁ iff e₀ = e₀ by CyclicGroupElement
+    e₀ = e₀
+  Therefore
+    e₀ is an element of C₁ by BiconditionalImplicationRightElimination

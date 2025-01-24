@@ -1,0 +1,7 @@
+{
+  "version": "0.0.0",
+  "repository": "https://github.com/djalbat/cyclic-groups",
+  "dependencies": {
+    "groups": "8.0"
+  }
+}

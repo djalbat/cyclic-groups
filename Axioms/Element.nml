@@ -1,0 +1,4 @@
+Variable g
+
+Axiom (CyclicGroupElement)
+  g is an element of C₁ iff g = e₀
