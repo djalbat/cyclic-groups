@@ -35,8 +35,3 @@ Lemma (CyclicGroupAssociativity)
     (f ● g) ● h = f ● g ● h
   Therefore
     f ● (g ● h) = (f ● g) ● h = f ● g ● h by TwoEqualitiesInferDoubleEquality
-
-Lemma
-  ●, C₁ satisfy Associativity
-  Proof
-    ●, C₁ satisfy Associativity by CyclicGroupAssociativity

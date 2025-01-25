@@ -1,0 +1,7 @@
+Lemma (CyclicGroupGroupOperation)
+  ● is an operation of C₁
+  Proof
+    ●, C₁ satisfy Closure by CyclicGroupClosure
+    ●, C₁ satisfy Associativity by CyclicGroupAssociativity
+  Therefore
+    ● is an operation of C₁ by GroupOperation

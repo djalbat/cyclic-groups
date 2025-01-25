@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "https://github.com/djalbat/cyclic-groups",
   "dependencies": {
-    "groups": "9.0",
+    "groups": "10.0",
     "equality": "3.0"
   }
 }
