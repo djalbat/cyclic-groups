@@ -1,0 +1,33 @@
+Variable e
+Variable g
+Variable o:Operation
+
+Lemma (CyclicGroupIdentityElement)
+  Suppose 
+    g is an element of C₁
+    e₀ is an element of C₁
+    ● is an operation of C₁
+  Then
+    g ● e₀ = g = e₀ ● g
+  Proof
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
+    g = e₀ by BiconditionalImplicationLeftElimination
+    e₀ ● e₀ = e₀ by CyclicGroupOperation
+    g ● e₀ = e₀ ● e₀
+    g ● e₀ = e₀
+    g ● e₀ = g
+    e₀ ● g = e₀ ● e₀
+    e₀ ● g = e₀
+    e₀ ● g = g
+    g ● e₀ = g
+    g = e₀ ● g
+  Therefore
+    g ● e₀ = g = e₀ ● g by DoubleEquality
+
+Lemma (CyclicGroupGroupIdentityElement)
+  e₀ is an identity element of C₁
+  Proof
+    e₀, ●, C₁ satisfy IdentityElement by CyclicGroupIdentityElement
+  Therefore
+    e₀ is an identity element of C₁ by GroupIdentityElement
