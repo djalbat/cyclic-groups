@@ -20,8 +20,7 @@ Lemma (CyclicGroupClosure)
   Therefore
     g ● h is an element of C₁
 
-###
 Lemma
   ●, C₁ satisfy Closure
   Proof
-    ●, C₁ satisfy Closure by ClosureOfCyclicGroup
+    ●, C₁ satisfy Closure by CyclicGroupClosure
