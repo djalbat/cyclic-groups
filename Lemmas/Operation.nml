@@ -1,3 +1,60 @@
+Variable f
+Variable g
+Variable h
+
+Lemma (CyclicGroupClosure)
+  Suppose 
+    g is an element of C₁
+    h is an element of C₁
+  Then
+    g ● h is an element of C₁
+  Proof
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
+    g = e₀ by BiconditionalImplicationLeftElimination
+    h is an element of C₁ iff h = e₀ by CyclicGroupElement
+    h is an element of C₁
+    h = e₀ by BiconditionalImplicationLeftElimination
+    e₀ is an element of C₁ by CyclicGroupSingleElement
+    e₀ ● e₀ = e₀ by CyclicGroupOperation
+    e₀ ● e₀ is an element of C₁
+  Therefore
+    g ● h is an element of C₁
+
+Lemma (CyclicGroupAssociativity)
+  Suppose 
+    f is an element of C₁
+    g is an element of C₁
+    h is an element of C₁
+  Then
+    f ● (g ● h) = (f ● g) ● h = f ● g ● h
+  Proof
+    f is an element of C₁ iff f = e₀ by CyclicGroupElement
+    f is an element of C₁
+    f = e₀ by BiconditionalImplicationLeftElimination
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
+    g = e₀ by BiconditionalImplicationLeftElimination
+    h is an element of C₁ iff h = e₀ by CyclicGroupElement
+    h is an element of C₁
+    h = e₀ by BiconditionalImplicationLeftElimination
+    e₀ ● e₀ = e₀ by CyclicGroupOperation
+    g ● h = e₀ ● e₀
+    g ● h = e₀
+    f ● (g ● h) = e₀ ● e₀
+    f ● (g ● h) = e₀
+    f ● g = e₀ ● e₀
+    f ● g = e₀
+    (f ● g) ● h = e₀ ● e₀
+    (f ● g) ● h = e₀
+    f ● g ● h = e₀ ● e₀ ● e₀
+    f ● g ● h = e₀ ● e₀
+    f ● g ● h = e₀
+    f ● (g ● h) = (f ● g) ● h
+    (f ● g) ● h = f ● g ● h
+  Therefore
+    f ● (g ● h) = (f ● g) ● h = f ● g ● h by TwoEqualitiesInferDoubleEquality
+
 Lemma (CyclicGroupGroupOperation)
   ● is an operation of C₁
   Proof
