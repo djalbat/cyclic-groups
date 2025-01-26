@@ -1,6 +1,5 @@
 Variable e
 Variable g
-Variable o:Operation
 
 Lemma (CyclicGroupIdentityElement)
   Suppose 

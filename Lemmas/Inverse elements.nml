@@ -1,9 +1,6 @@
 Variable e
 Variable g
 
-Variable G:Group
-Variable o:Operation
-
 Lemma (CyclicGroupInverseElements)
   Suppose 
     g⁻¹ is an element of C₁
