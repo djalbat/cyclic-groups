@@ -1,5 +1,5 @@
-Variable e
-Variable g
+Variable e:Element
+Variable g:Element
 
 Lemma (CyclicGroupIdentityElement)
   Suppose 
@@ -27,6 +27,7 @@ Lemma (CyclicGroupIdentityElement)
 Lemma (CyclicGroupGroupIdentityElement)
   e₀ is an identity element of C₁
   Proof
-    e₀, ●, C₁ satisfy IdentityElement by CyclicGroupIdentityElement
+    g, ●, e₀, C₁ satisfy IdentityElements iff e₀ is an identity element of C₁ by GroupIdentityElement
+    g, ●, e₀, C₁ satisfy IdentityElements by CyclicGroupIdentityElement
   Therefore
-    e₀ is an identity element of C₁ by GroupIdentityElement
+    e₀ is an identity element of C₁ by BiconditionalImplicationLeftElimination

@@ -1,6 +1,6 @@
-Variable f
-Variable g
-Variable h
+Variable f:Element
+Variable g:Element
+Variable h:Element
 
 Lemma (CyclicGroupClosure)
   Suppose 
@@ -58,7 +58,10 @@ Lemma (CyclicGroupAssociativity)
 Lemma (CyclicGroupGroupOperation)
   ● is an operation of C₁
   Proof
-    ●, C₁ satisfy Closure by CyclicGroupClosure
-    ●, C₁ satisfy Associativity by CyclicGroupAssociativity
+    g, ●, h, C₁ satisfy Closure by CyclicGroupClosure
+    f, ●, g, h, C₁ satisfy Associativity by CyclicGroupAssociativity
+    g, ●, h, C₁ satisfy Closure ∧ f, ●, g, h, C₁ satisfy Associativity by ConjunctionIntroduction
+    (g, ●, h, C₁ satisfy Closure ∧ f, ●, g, h, C₁ satisfy Associativity) iff ● is an operation of C₁ by GroupOperation
+    g, ●, h, C₁ satisfy Closure ∧ f, ●, g, h, C₁ satisfy Associativity
   Therefore
-    ● is an operation of C₁ by GroupOperation
+    ● is an operation of C₁ by BiconditionalImplicationLeftElimination
