@@ -26,6 +26,6 @@ Lemma (CyclicGroupInverseElements)
     g⁻¹ ● g = e₀ = g ● g⁻¹ by DoubleEqualityIntroduction
 
 Lemma (CyclicGroupGroupInverseElements)
-    g⁻¹, ●, g, e₀, C₁ satisfy InverseElements
+  ●, e₀, C₁ satisfy InverseElements
   Proof
-    g⁻¹, ●, g, e₀, C₁ satisfy InverseElements by CyclicGroupInverseElements
+    ●, e₀, C₁ satisfy InverseElements by CyclicGroupInverseElements
