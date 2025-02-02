@@ -22,7 +22,7 @@ Lemma (CyclicGroupIdentityElement)
     g ● e₀ = g
     g = e₀ ● g
   Therefore
-    g ● e₀ = g = e₀ ● g by DoubleEquality
+    g ● e₀ = g = e₀ ● g by DoubleEqualityIntroduction
 
 Lemma (CyclicGroupGroupIdentityElement)
   e₀ is an identity element of C₁

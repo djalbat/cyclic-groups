@@ -53,7 +53,7 @@ Lemma (CyclicGroupAssociativity)
     f ● (g ● h) = (f ● g) ● h
     (f ● g) ● h = f ● g ● h
   Therefore
-    f ● (g ● h) = (f ● g) ● h = f ● g ● h by TwoEqualitiesInferDoubleEquality
+    f ● (g ● h) = (f ● g) ● h = f ● g ● h by DoubleEqualityIntroduction
 
 Lemma (CyclicGroupGroupOperation)
   ● is an operation of C₁
