@@ -58,10 +58,10 @@ Lemma (CyclicGroupAssociativity)
 Lemma (CyclicGroupGroupOperation)
   ● is an operation of C₁
   Proof
-    ●, C₁ satisfy Closure by CyclicGroupClosure
-    ●, C₁ satisfy Associativity by CyclicGroupAssociativity
-    ●, C₁ satisfy Closure ∧ ●, C₁ satisfy Associativity by ConjunctionIntroduction
-    (●, C₁ satisfy Closure ∧ ●, C₁ satisfy Associativity) iff ● is an operation of C₁ by GroupOperation
-    ●, C₁ satisfy Closure ∧ ●, C₁ satisfy Associativity
+    ●, C₁ satisfy GroupClosure by CyclicGroupClosure
+    ●, C₁ satisfy GroupAssociativity by CyclicGroupAssociativity
+    ●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity by ConjunctionIntroduction
+    (●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity) iff ● is an operation of C₁ by Operations
+    ●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity
   Therefore
     ● is an operation of C₁ by BiconditionalImplicationLeftElimination

@@ -1,31 +1,29 @@
 Variable e:Element
 Variable g:Element
 
-Lemma (CyclicGroupInverseElements)
+Axiom (CyclicGroupInverseElement)
+  e₀⁻¹ = e₀
+
+Lemma (CyclicGroupGroupInverseElements)
   Suppose 
-    g⁻¹ is an element of C₁
-    g is an element of C₁
-    ● is an operation of C₁
     e₀ is an identity element of C₁
+    ● is an operation of C₁
+    g is an element of C₁
   Then
-    g⁻¹ ● g = e₀ = g ● g⁻¹
+    g ● g⁻¹ = e₀ = g⁻¹ ● g
   Proof
-    g⁻¹ is an element of C₁ iff g⁻¹ = e₀ by CyclicGroupElement
-    g⁻¹ is an element of C₁
-    g⁻¹ = e₀ by BiconditionalImplicationLeftElimination
     g is an element of C₁ iff g = e₀ by CyclicGroupElement
     g is an element of C₁
     g = e₀ by BiconditionalImplicationLeftElimination
-    e₀ ● e₀ = e₀ by CyclicGroupOperation
-    g ● g⁻¹ = e₀ ● e₀
-    g ● g⁻¹ = e₀
+    g⁻¹ = e₀⁻¹
+    e₀⁻¹ = e₀ by CyclicGroupInverseElement
+    g⁻¹ = e₀
+    g = e₀
     g⁻¹ ● g = e₀ ● e₀
+    g ● g⁻¹ = e₀ ● e₀
+    e₀ ● e₀ = e₀ by CyclicGroupOperation
     g⁻¹ ● g = e₀
-    e₀ = g ● g⁻¹
+    g ● g⁻¹ = e₀
+    e₀ = g⁻¹ ● g
   Therefore
-    g⁻¹ ● g = e₀ = g ● g⁻¹ by DoubleEqualityIntroduction
-
-Lemma (CyclicGroupGroupInverseElements)
-  ●, e₀, C₁ satisfy InverseElements
-  Proof
-    ●, e₀, C₁ satisfy InverseElements by CyclicGroupInverseElements
+    g ● g⁻¹ = e₀ = g⁻¹ ● g by DoubleEqualityIntroduction

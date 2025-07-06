@@ -3,6 +3,6 @@ Theorem (CyclicGroupGroups)
   Proof
     ● is an operation of C₁ by CyclicGroupGroupOperation
     e₀ is an identity element of C₁ by CyclicGroupGroupIdentityElement
-    ●, e₀, C₁ satisfy InverseElements by CyclicGroupGroupInverseElements
+    e₀, ●, C₁ satisfy GroupInverseElements by CyclicGroupGroupInverseElements
   Therefore
     C₁:Group by Groups

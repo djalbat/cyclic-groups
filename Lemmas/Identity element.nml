@@ -3,9 +3,9 @@ Variable g:Element
 
 Lemma (CyclicGroupIdentityElement)
   Suppose 
-    g is an element of C₁
     e₀ is an element of C₁
     ● is an operation of C₁
+    g is an element of C₁
   Then
     g ● e₀ = g = e₀ ● g
   Proof
@@ -27,7 +27,7 @@ Lemma (CyclicGroupIdentityElement)
 Lemma (CyclicGroupGroupIdentityElement)
   e₀ is an identity element of C₁
   Proof
-    e₀, ●, C₁ satisfy IdentityElements iff e₀ is an identity element of C₁ by GroupIdentityElement
-    e₀, ●, C₁ satisfy IdentityElements by CyclicGroupIdentityElement
+    e₀, ●, C₁ satisfy GroupIdentityElement iff e₀ is an identity element of C₁ by IdentityElements
+    e₀, ●, C₁ satisfy GroupIdentityElement by CyclicGroupIdentityElement
   Therefore
     e₀ is an identity element of C₁ by BiconditionalImplicationLeftElimination
