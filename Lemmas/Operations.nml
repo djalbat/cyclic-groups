@@ -61,7 +61,7 @@ Lemma (CyclicGroupGroupOperation)
     ●, C₁ satisfy GroupClosure by CyclicGroupClosure
     ●, C₁ satisfy GroupAssociativity by CyclicGroupAssociativity
     ●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity by ConjunctionIntroduction
-    (●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity) iff ● is an operation of C₁ by Operations
+    ● is an operation of C₁ iff (●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity) by Operations
     ●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity
   Therefore
-    ● is an operation of C₁ by BiconditionalImplicationLeftElimination
+    ● is an operation of C₁ by BiconditionalImplicationRightElimination
