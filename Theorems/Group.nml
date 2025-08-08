@@ -1,8 +1,10 @@
+Variable g:Element
+
 Theorem (CyclicGroupGroups)
   C₁:Group
   Proof
     ● is an operation of C₁ by CyclicGroupGroupOperation
     e₀ is an identity element of C₁ by CyclicGroupGroupIdentityElement
-    e₀, ●, C₁ satisfy GroupInverseElements by CyclicGroupGroupInverseElements
+    [C₁, ●, e₀, g] satisfies GroupInverseElements by CyclicGroupGroupInverseElements
   Therefore
     C₁:Group by Groups

@@ -4,22 +4,22 @@ Variable h:Element
 
 Lemma (CyclicGroupClosure)
   Suppose 
+    f is an element of C₁
     g is an element of C₁
-    h is an element of C₁
   Then
-    g ● h is an element of C₁
+    f ● g is an element of C₁
   Proof
+    f is an element of C₁ iff f = e₀ by CyclicGroupElement
+    f is an element of C₁
+    f = e₀ by BiconditionalImplicationLeftElimination
     g is an element of C₁ iff g = e₀ by CyclicGroupElement
     g is an element of C₁
     g = e₀ by BiconditionalImplicationLeftElimination
-    h is an element of C₁ iff h = e₀ by CyclicGroupElement
-    h is an element of C₁
-    h = e₀ by BiconditionalImplicationLeftElimination
     e₀ is an element of C₁ by CyclicGroupSingleElement
     e₀ ● e₀ = e₀ by CyclicGroupOperation
     e₀ ● e₀ is an element of C₁
   Therefore
-    g ● h is an element of C₁
+    f ● g is an element of C₁
 
 Lemma (CyclicGroupAssociativity)
   Suppose 
@@ -58,10 +58,10 @@ Lemma (CyclicGroupAssociativity)
 Lemma (CyclicGroupGroupOperation)
   ● is an operation of C₁
   Proof
-    ●, C₁ satisfy GroupClosure by CyclicGroupClosure
-    ●, C₁ satisfy GroupAssociativity by CyclicGroupAssociativity
-    ●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity by ConjunctionIntroduction
-    ● is an operation of C₁ iff (●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity) by Operations
-    ●, C₁ satisfy GroupClosure ∧ ●, C₁ satisfy GroupAssociativity
+    [C₁, ●, f, g] satisfies GroupClosure by CyclicGroupClosure
+    [C₁, ●, f, g, h] satisfies GroupAssociativity by CyclicGroupAssociativity
+    [C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity by ConjunctionIntroduction
+    ● is an operation of C₁ iff ([C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity) by Operations
+    [C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity
   Therefore
     ● is an operation of C₁ by BiconditionalImplicationRightElimination
