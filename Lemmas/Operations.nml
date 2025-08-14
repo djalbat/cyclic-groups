@@ -7,7 +7,7 @@ Lemma (CyclicGroupClosure)
     f is an element of C₁
     g is an element of C₁
   Then
-    f ● g is an element of C₁
+    g ● f is an element of C₁
   Proof
     f is an element of C₁ iff f = e₀ by CyclicGroupElement
     f is an element of C₁
@@ -19,7 +19,7 @@ Lemma (CyclicGroupClosure)
     e₀ ● e₀ = e₀ by CyclicGroupOperation
     e₀ ● e₀ is an element of C₁
   Therefore
-    f ● g is an element of C₁
+    g ● f is an element of C₁
 
 Lemma (CyclicGroupAssociativity)
   Suppose 
@@ -27,7 +27,7 @@ Lemma (CyclicGroupAssociativity)
     g is an element of C₁
     h is an element of C₁
   Then
-    f ● (g ● h) = (f ● g) ● h = f ● g ● h
+    h ● (g ● f) = (h ● g) ● f = h ● g ● f
   Proof
     f is an element of C₁ iff f = e₀ by CyclicGroupElement
     f is an element of C₁
@@ -39,21 +39,21 @@ Lemma (CyclicGroupAssociativity)
     h is an element of C₁
     h = e₀ by BiconditionalImplicationLeftElimination
     e₀ ● e₀ = e₀ by CyclicGroupOperation
-    g ● h = e₀ ● e₀
-    g ● h = e₀
-    f ● (g ● h) = e₀ ● e₀
-    f ● (g ● h) = e₀
-    f ● g = e₀ ● e₀
-    f ● g = e₀
-    (f ● g) ● h = e₀ ● e₀
-    (f ● g) ● h = e₀
-    f ● g ● h = e₀ ● e₀ ● e₀
-    f ● g ● h = e₀ ● e₀
-    f ● g ● h = e₀
-    f ● (g ● h) = (f ● g) ● h
-    (f ● g) ● h = f ● g ● h
+    g ● f = e₀ ● e₀
+    g ● f = e₀
+    h ● (g ● f) = e₀ ● e₀
+    h ● (g ● f) = e₀
+    h ● g = e₀ ● e₀
+    h ● g = e₀
+    (h ● g) ● f = e₀ ● e₀
+    (h ● g) ● f = e₀
+    h ● g ● f = e₀ ● e₀ ● e₀
+    h ● g ● f = e₀ ● e₀
+    h ● g ● f = e₀
+    h ● (g ● f) = (h ● g) ● f
+    (h ● g) ● f = h ● g ● f
   Therefore
-    f ● (g ● h) = (f ● g) ● h = f ● g ● h by DoubleEqualityIntroduction
+    h ● (g ● f) = (h ● g) ● f = h ● g ● f by DoubleEqualityIntroduction
 
 Lemma (CyclicGroupGroupOperation)
   ● is an operation of C₁
@@ -61,7 +61,7 @@ Lemma (CyclicGroupGroupOperation)
     [C₁, ●, f, g] satisfies GroupClosure by CyclicGroupClosure
     [C₁, ●, f, g, h] satisfies GroupAssociativity by CyclicGroupAssociativity
     [C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity by ConjunctionIntroduction
-    ● is an operation of C₁ iff ([C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity) by Operations
+    ● is an operation of C₁ iff ([C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity) by GroupOperations
     [C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity
   Therefore
     ● is an operation of C₁ by BiconditionalImplicationRightElimination
