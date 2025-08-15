@@ -2,8 +2,8 @@ Variable g:Element
 
 Lemma (CyclicGroupIdentityElement)
   Suppose 
-    e₀ is an element of C₁
     ● is an operation of C₁
+    e₀ is an element of C₁
     g is an element of C₁
   Then
     g ● e₀ = g = e₀ ● g
