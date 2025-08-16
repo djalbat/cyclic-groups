@@ -12,12 +12,9 @@ Lemma (CyclicGroupIdentityElement)
     g is an element of C₁
     g = e₀ by BiconditionalImplicationLeftElimination
     g ● e₀ = e₀ ● e₀
+    e₀ ● e₀ = e₀ ● g
     e₀ ● e₀ = e₀ by CyclicGroupOperation
-    g ● e₀ = e₀
-    g ● e₀ = g
-    e₀ ● g = e₀ ● e₀
-    e₀ ● g = e₀
-    e₀ ● g = g
+    e₀ ● e₀ = g
     g ● e₀ = g
     g = e₀ ● g
   Therefore
