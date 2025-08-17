@@ -18,11 +18,8 @@ Lemma (CyclicGroupGroupInverseElements)
     g⁻¹ = e₀⁻¹
     e₀⁻¹ = e₀ by CyclicGroupInverseElement
     g⁻¹ = e₀
-    g = e₀
-    g⁻¹ ● g = e₀ ● e₀
-    g ● g⁻¹ = e₀ ● e₀
     e₀ ● e₀ = e₀ by CyclicGroupOperation
-    g⁻¹ ● g = e₀
+    e₀ = e₀ ● e₀
     g ● g⁻¹ = e₀
     e₀ = g⁻¹ ● g
   Therefore

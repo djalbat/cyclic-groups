@@ -39,17 +39,10 @@ Lemma (CyclicGroupAssociativity)
     h is an element of C₁
     h = e₀ by BiconditionalImplicationLeftElimination
     e₀ ● e₀ = e₀ by CyclicGroupOperation
-    g ● f = e₀ ● e₀
-    g ● f = e₀
-    h ● (g ● f) = e₀ ● e₀
-    h ● (g ● f) = e₀
-    h ● g = e₀ ● e₀
-    h ● g = e₀
-    (h ● g) ● f = e₀ ● e₀
-    (h ● g) ● f = e₀
-    h ● g ● f = e₀ ● e₀ ● e₀
-    h ● g ● f = e₀ ● e₀
-    h ● g ● f = e₀
+    e₀ ● e₀ = e₀ ● e₀
+    (e₀ ● e₀) ● e₀ = e₀ ● e₀ ● e₀
+    (h ● g) ● f = h ● g ● f
+    e₀ ● (e₀ ● e₀) = (e₀ ● e₀) ● e₀
     h ● (g ● f) = (h ● g) ● f
     (h ● g) ● f = h ● g ● f
   Therefore
