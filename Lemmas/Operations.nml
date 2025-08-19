@@ -7,7 +7,7 @@ Lemma (CyclicGroupClosure)
     f is an element of C₁
     g is an element of C₁
   Then
-    g ● f is an element of C₁
+    g ∙ f is an element of C₁
   Proof
     f is an element of C₁ iff f = e₀ by CyclicGroupElement
     f is an element of C₁
@@ -16,10 +16,10 @@ Lemma (CyclicGroupClosure)
     g is an element of C₁
     g = e₀ by BiconditionalImplicationLeftElimination
     e₀ is an element of C₁ by CyclicGroupSingleElement
-    e₀ ● e₀ = e₀ by CyclicGroupOperation
-    e₀ ● e₀ is an element of C₁
+    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
+    e₀ ∙ e₀ is an element of C₁
   Therefore
-    g ● f is an element of C₁
+    g ∙ f is an element of C₁
 
 Lemma (CyclicGroupAssociativity)
   Suppose 
@@ -27,7 +27,7 @@ Lemma (CyclicGroupAssociativity)
     g is an element of C₁
     h is an element of C₁
   Then
-    h ● (g ● f) = (h ● g) ● f = h ● g ● f
+    h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
   Proof
     f is an element of C₁ iff f = e₀ by CyclicGroupElement
     f is an element of C₁
@@ -38,23 +38,25 @@ Lemma (CyclicGroupAssociativity)
     h is an element of C₁ iff h = e₀ by CyclicGroupElement
     h is an element of C₁
     h = e₀ by BiconditionalImplicationLeftElimination
-    e₀ ● e₀ = e₀ by CyclicGroupOperation
-    e₀ ● e₀ = e₀ ● e₀
-    (e₀ ● e₀) ● e₀ = e₀ ● e₀ ● e₀
-    (h ● g) ● f = h ● g ● f
-    e₀ ● (e₀ ● e₀) = (e₀ ● e₀) ● e₀
-    h ● (g ● f) = (h ● g) ● f
-    (h ● g) ● f = h ● g ● f
+    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
+    e₀ ∙ e₀ = e₀ ∙ e₀
+    (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀
+    (h ∙ g) ∙ f = h ∙ g ∙ f
+    e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀
+    h ∙ (g ∙ f) = (h ∙ g) ∙ f
+    (h ∙ g) ∙ f = h ∙ g ∙ f
   Therefore
-    h ● (g ● f) = (h ● g) ● f = h ● g ● f by DoubleEqualityIntroduction
+    h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f by DoubleEqualityIntroduction
 
-Lemma (CyclicGroupGroupOperation)
-  ● is an operation of C₁
+Lemma (CyclicGroupOperations)
+  ∘_C₁ is an operation of C₁
   Proof
-    [C₁, ●, f, g] satisfies GroupClosure by CyclicGroupClosure
-    [C₁, ●, f, g, h] satisfies GroupAssociativity by CyclicGroupAssociativity
-    [C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity by ConjunctionIntroduction
-    ● is an operation of C₁ iff ([C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity) by GroupOperations
-    [C₁, ●, f, g] satisfies GroupClosure ∧ [C₁, ●, f, g, h] satisfies GroupAssociativity
+    [C₁, ∙] satisfies GroupClosure by CyclicGroupClosure
+    [C₁, ∙] satisfies GroupAssociativity by CyclicGroupAssociativity
+    [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity by ConjunctionIntroduction
+    ∙ is an operation of C₁ iff ([C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity) by GroupOperation
+    [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity
+    ∙ is an operation of C₁ by BiconditionalImplicationRightElimination
+    ∙ = ∘_C₁ by CyclicGroupOperationCanonicalForm
   Therefore
-    ● is an operation of C₁ by BiconditionalImplicationRightElimination
+    ∘_C₁ is an operation of C₁
