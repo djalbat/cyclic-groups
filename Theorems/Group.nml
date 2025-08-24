@@ -3,6 +3,6 @@ Theorem (CyclicGroups)
   Proof
     [C₁] satisfies GroupOperations by CyclicGroupOperations
     [C₁] satisfies GroupIdentityElements by CyclicGroupIdentityElements
-    [C₁] satisfies GroupInverseElements by CyclicGroupInverseElements
+    [C₁] satisfies GroupInverses by CyclidGroupInverses
   Therefore
     C₁:Group by Groups
