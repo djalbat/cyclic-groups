@@ -1,0 +1,7 @@
+Lemma (CyclicGroupIdentityElements)
+  𝓮_C₁ is an identity element of C₁
+  Proof
+    e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
+    e₀ = 𝓮_C₁ by CyclicGroupIdentityElement
+  Therefore
+    𝓮_C₁ is an identity element of C₁

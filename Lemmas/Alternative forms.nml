@@ -1,0 +1,22 @@
+Lemma (CyclicGroupIdentityElementAlternativeForm)
+  e₀ is an identity element of C₁
+  Proof
+    𝓮_C₁ is an identity element of C₁ by GroupIdentityElements
+    e₀ = 𝓮_C₁ by CyclicGroupIdentityElement
+  Therefore
+    e₀ is an identity element of C₁
+
+Lemma (CyclicGroupOperationAlternativeForm)
+  ∙ is an operation of C₁
+  Proof
+    ∘_C₁ is an operation of C₁ by GroupOperations
+    ∙ = ∘_C₁ by CyclicGroupOperation
+  Therefore
+    ∙ is an operation of C₁
+
+Lemma (CyclicGroupElementAlternativeForm)
+  e₀ is an element of C₁
+  Proof
+    e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
+  Therefore
+    e₀ is an element of C₁ by GroupIdentityElementsAreElements

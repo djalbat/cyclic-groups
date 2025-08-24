@@ -1,7 +1,9 @@
-Lemma (CyclicGroupSingleElement)
-  e₀ is an element of C₁
+Lemma (CyclicGroupLaw)
+  e₀ = e₀ ∙ e₀
   Proof
-    e₀ is an element of C₁ iff e₀ = e₀ by CyclicGroupElement
-    e₀ = e₀
+    ∙ is an operation of C₁ by CyclicGroupOperationAlternativeForm
+    e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
+    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
+    e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by GroupCompositionWithIdentityElements
   Therefore
-    e₀ is an element of C₁ by BiconditionalImplicationRightElimination
+    e₀ = e₀ ∙ e₀ by DoubleEqualityLeftElimination

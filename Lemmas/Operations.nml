@@ -2,6 +2,17 @@ Variable f:Element
 Variable g:Element
 Variable h:Element
 
+Lemma (CyclicGroupElementsAreEqual)
+  Suppose 
+    g is an element of C₁
+  Then
+    g = e₀
+  Proof
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
+  Therefore
+    g = e₀ by BiconditionalImplicationLeftElimination
+
 Lemma (CyclicGroupClosure)
   Suppose 
     f is an element of C₁
@@ -9,15 +20,11 @@ Lemma (CyclicGroupClosure)
   Then
     g ∙ f is an element of C₁
   Proof
-    f is an element of C₁ iff f = e₀ by CyclicGroupElement
-    f is an element of C₁
-    f = e₀ by BiconditionalImplicationLeftElimination
-    g is an element of C₁ iff g = e₀ by CyclicGroupElement
-    g is an element of C₁
-    g = e₀ by BiconditionalImplicationLeftElimination
-    e₀ is an element of C₁ by CyclicGroupSingleElement
-    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
+    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
+    e₀ = e₀ ∙ e₀ by CyclicGroupLaw
     e₀ ∙ e₀ is an element of C₁
+    f = e₀ by CyclicGroupElementsAreEqual
+    g = e₀ by CyclicGroupElementsAreEqual
   Therefore
     g ∙ f is an element of C₁
 
@@ -29,24 +36,16 @@ Lemma (CyclicGroupAssociativity)
   Then
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
   Proof
-    f is an element of C₁ iff f = e₀ by CyclicGroupElement
-    f is an element of C₁
-    f = e₀ by BiconditionalImplicationLeftElimination
-    g is an element of C₁ iff g = e₀ by CyclicGroupElement
-    g is an element of C₁
-    g = e₀ by BiconditionalImplicationLeftElimination
-    h is an element of C₁ iff h = e₀ by CyclicGroupElement
-    h is an element of C₁
-    h = e₀ by BiconditionalImplicationLeftElimination
-    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
-    e₀ ∙ e₀ = e₀ ∙ e₀
-    (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀
-    (h ∙ g) ∙ f = h ∙ g ∙ f
+    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
+    e₀ = e₀ ∙ e₀ by CyclicGroupLaw
     e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀
-    h ∙ (g ∙ f) = (h ∙ g) ∙ f
-    (h ∙ g) ∙ f = h ∙ g ∙ f
+    (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀
+    e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀ by DoubleEqualityIntroduction
+    f = e₀ by CyclicGroupElementsAreEqual
+    g = e₀ by CyclicGroupElementsAreEqual
+    h = e₀ by CyclicGroupElementsAreEqual
   Therefore
-    h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f by DoubleEqualityIntroduction
+    h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
 
 Lemma (CyclicGroupOperations)
   ∘_C₁ is an operation of C₁
@@ -57,6 +56,7 @@ Lemma (CyclicGroupOperations)
     ∙ is an operation of C₁ iff ([C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity) by GroupOperation
     [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity
     ∙ is an operation of C₁ by BiconditionalImplicationRightElimination
-    ∙ = ∘_C₁ by CyclicGroupOperationCanonicalForm
+    ∙ = ∘_C₁ by CyclicGroupOperation
   Therefore
     ∘_C₁ is an operation of C₁
+
