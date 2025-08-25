@@ -1,9 +1,21 @@
-Lemma (CyclicGroupLaw)
-  e₀ = e₀ ∙ e₀
+Variable g:Element
+
+Lemma (CyclicGroupElementsAreEqual)
+  Suppose 
+    g is an element of C₁
+  Then
+    g = e₀
   Proof
-    ∙ is an operation of C₁ by CyclicGroupOperationAlternativeForm
-    e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
-    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
-    e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by GroupCompositionWithIdentityElements
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
   Therefore
-    e₀ = e₀ ∙ e₀ by DoubleEqualityLeftElimination
+    g = e₀ by BiconditionalImplicationLeftElimination
+
+Lemma (CyclicGroupElementCanonicalForm)
+  e₀ is an element of C₁
+  Proof
+    e₀ is an element of C₁ iff e₀ = e₀ by CyclicGroupElement
+    e₀ = e₀
+  Therefore
+    e₀ is an element of C₁ by BiconditionalImplicationRightElimination
+

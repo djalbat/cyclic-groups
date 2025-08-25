@@ -2,17 +2,6 @@ Variable f:Element
 Variable g:Element
 Variable h:Element
 
-Lemma (CyclicGroupElementsAreEqual)
-  Suppose 
-    g is an element of C₁
-  Then
-    g = e₀
-  Proof
-    g is an element of C₁ iff g = e₀ by CyclicGroupElement
-    g is an element of C₁
-  Therefore
-    g = e₀ by BiconditionalImplicationLeftElimination
-
 Lemma (CyclicGroupClosure)
   Suppose 
     f is an element of C₁
@@ -20,8 +9,8 @@ Lemma (CyclicGroupClosure)
   Then
     g ∙ f is an element of C₁
   Proof
-    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
-    e₀ = e₀ ∙ e₀ by CyclicGroupLaw
+    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
+    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
     e₀ ∙ e₀ is an element of C₁
     f = e₀ by CyclicGroupElementsAreEqual
     g = e₀ by CyclicGroupElementsAreEqual
@@ -36,8 +25,8 @@ Lemma (CyclicGroupAssociativity)
   Then
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
   Proof
-    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
-    e₀ = e₀ ∙ e₀ by CyclicGroupLaw
+    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
+    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
     e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀
     (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀
     e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀ by DoubleEqualityIntroduction
@@ -47,16 +36,21 @@ Lemma (CyclicGroupAssociativity)
   Therefore
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
 
-Lemma (CyclicGroupOperations)
-  ∘_C₁ is an operation of C₁
+Lemma (CyclicGroupOperationsCanonicalForm)
+  ∙ is an operation of C₁
   Proof
     [C₁, ∙] satisfies GroupClosure by CyclicGroupClosure
     [C₁, ∙] satisfies GroupAssociativity by CyclicGroupAssociativity
     [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity by ConjunctionIntroduction
     ∙ is an operation of C₁ iff ([C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity) by GroupOperation
     [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity
+  Therefore
     ∙ is an operation of C₁ by BiconditionalImplicationRightElimination
+
+Lemma (CyclicGroupOperations)
+  ∘_C₁ is an operation of C₁
+  Proof
+    ∙ is an operation of C₁ by CyclicGroupOperationsCanonicalForm
     ∙ = ∘_C₁ by CyclicGroupOperation
   Therefore
     ∘_C₁ is an operation of C₁
-

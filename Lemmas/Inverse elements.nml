@@ -1,20 +1,18 @@
 Variable g:Element
 
 Lemma (CyclicGroupInverElement)
-    e₀ is an inverse of e₀
-    Proof
-      e₀ = e₀ ∙ e₀ by CyclicGroupLaw
-      e₀ ∙ e₀ = e₀
-      e₀ = e₀ ∙ e₀
-      e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by DoubleEqualityIntroduction
-      e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
-      e₀ is an element of C₁
-      ∙ is an operation of C₁ by CyclicGroupOperationAlternativeForm
-      e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
-      e₀ is an inverse of e₀ iff e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by GroupInverse
-      e₀ ∙ e₀ = e₀ = e₀ ∙ e₀
-    Therefore
-      e₀ is an inverse of e₀ by BiconditionalImplicationRightElimination
+  e₀ is an inverse of e₀
+  Proof
+    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
+    e₀ = e₀ ∙ e₀
+    e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by DoubleEqualityIntroduction
+    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
+    ∙ is an operation of C₁ by CyclicGroupOperationsCanonicalForm
+    e₀ is an identity element of C₁ by CyclicGroupIdentityElementsCanonicalForm
+    e₀ is an inverse of e₀ iff [∙, e₀, e₀, e₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
+    [∙, e₀, e₀, e₀] satisfies GroupInverseDoubleEqualiy
+  Therefore
+    e₀ is an inverse of e₀ by BiconditionalImplicationRightElimination
 
 Lemma (CyclidGroupInverses)
   Suppose
@@ -22,9 +20,9 @@ Lemma (CyclidGroupInverses)
   Then
     g⁻¹ is an element of C₁
   Proof
-    e₀ is an element of C₁ by CyclicGroupElementAlternativeForm
-    ∙ is an operation of C₁ by CyclicGroupOperationAlternativeForm
-    e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
+    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
+    ∙ is an operation of C₁ by CyclicGroupOperationsCanonicalForm
+    e₀ is an identity element of C₁ by CyclicGroupIdentityElementsCanonicalForm
     e₀ is an inverse of e₀ by CyclicGroupInverElement
     e₀⁻¹ is an inverse of e₀ by GroupInverseCanoicalForm
     e₀ = e₀⁻¹ by GroupInversesAreUnique

@@ -1,7 +1,35 @@
+Variable g:Element
+
+Lemma (CyclicGroupIdentity)
+  Suppose 
+    g is an element of C₁
+  Then
+    g ∙ e₀ = g = e₀ ∙ g
+  Proof
+    g is an element of C₁ iff g = e₀ by CyclicGroupElement
+    g is an element of C₁
+    g = e₀ by BiconditionalImplicationLeftElimination
+    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
+    e₀ = e₀ ∙ e₀
+    e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by DoubleEqualityIntroduction
+  Therefore
+    g ∙ e₀ = g = e₀ ∙ g
+
+Lemma (CyclicGroupIdentityElementsCanonicalForm)
+  e₀ is an identity element of C₁
+  Proof
+    ∘_C₁ is an operation of C₁ by CyclicGroupOperations
+    ∙ = ∘_C₁ by CyclicGroupOperation
+    ∙ is an operation of C₁
+    e₀ is an identity element of C₁ iff [C₁, ∙, e₀] satisfies GroupIdentity by GroupIdentityElement
+    [C₁, ∙, e₀] satisfies GroupIdentity by CyclicGroupIdentity
+  Therefore
+    e₀ is an identity element of C₁ by BiconditionalImplicationRightElimination
+
 Lemma (CyclicGroupIdentityElements)
   𝓮_C₁ is an identity element of C₁
   Proof
-    e₀ is an identity element of C₁ by CyclicGroupIdentityElementAlternativeForm
+    e₀ is an identity element of C₁ by CyclicGroupIdentityElementsCanonicalForm
     e₀ = 𝓮_C₁ by CyclicGroupIdentityElement
   Therefore
     𝓮_C₁ is an identity element of C₁
