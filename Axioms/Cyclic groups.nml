@@ -1,0 +1,13 @@
+Variable g:Element
+
+Axiom (CyclicGroupElement)
+  g is an element of C₁ iff g = e₀
+
+Axiom (CyclicGroupLaw)
+  e₀ ∙ e₀ = e₀
+
+Axiom (CyclicGroupOperation)
+  ∙ = ∘_C₁
+
+Axiom (CyclicGroupIdentityElement)
+  e₀ = 𝓮_C₁

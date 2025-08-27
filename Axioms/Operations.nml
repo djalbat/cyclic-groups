@@ -1,5 +1,0 @@
-Axiom (CyclicGroupLaw)
-  e₀ ∙ e₀ = e₀
-
-Axiom (CyclicGroupOperation)
-  ∙ = ∘_C₁
