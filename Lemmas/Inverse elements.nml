@@ -1,32 +1,32 @@
-Variable g:Element
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Lemma (CyclidGroupInversesCanonicalForm)
-  e₀ is an inverse of e₀
+  𝘦₀ is an inverse of 𝘦₀
   Proof
-    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
-    e₀ = e₀ ∙ e₀
-    e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by DoubleEqualityIntroduction
-    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
-    ∙ is an operation of C₁ by CyclicGroupOperationsCanonicalForm
-    e₀ is an identity element of C₁ by CyclicGroupIdentityElementsCanonicalForm
-    e₀ is an inverse of e₀ iff [∙, e₀, e₀, e₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
-    [∙, e₀, e₀, e₀] satisfies GroupInverseDoubleEqualiy
+    𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
+    𝘦₀ = 𝘦₀ ∙ 𝘦₀
+    𝘦₀ ∙ 𝘦₀ = 𝘦₀ = 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
+    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
+    ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
+    𝘦₀ is an identity element of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
+    𝘦₀ is an inverse of 𝘦₀ 𝘪𝘧𝘧 [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
+    [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy
   Therefore
-    e₀ is an inverse of e₀ by BiconditionalImplicationRightElimination
+    𝘦₀ is an inverse of 𝘦₀ by BiconditionalImplicationRightElimination
 
 Lemma (CyclidGroupInverses)
   Suppose
-    g is an element of C₁
+    g is an element of 𝘊₁
   Then
-    g⁻¹ is an element of C₁
+    g⁻¹ is an element of 𝘊₁
   Proof
-    g = e₀ by CyclicGroupElementsAreEqual
-    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
-    ∙ is an operation of C₁ by CyclicGroupOperationsCanonicalForm
-    e₀ is an identity element of C₁ by CyclicGroupIdentityElementsCanonicalForm
-    e₀⁻¹ is an inverse of e₀ by GroupInverseCanoicalForm
-    e₀ is an inverse of e₀ by CyclidGroupInversesCanonicalForm
-    e₀ = e₀⁻¹ by GroupInversesAreUnique
+    g = 𝘦₀ by CyclicGroupElementsAreEqual
+    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
+    ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
+    𝘦₀ is an identity element of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
+    𝘦₀⁻¹ is an inverse of 𝘦₀ by GroupInverseCanoicalForm
+    𝘦₀ is an inverse of 𝘦₀ by CyclidGroupInversesCanonicalForm
+    𝘦₀ = 𝘦₀⁻¹ by GroupInversesAreUnique
     g = g⁻¹
   Therefore
-    g⁻¹ is an element of C₁
+    g⁻¹ is an element of 𝘊₁

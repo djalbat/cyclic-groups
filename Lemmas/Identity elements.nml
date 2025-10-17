@@ -1,35 +1,35 @@
-Variable g:Element
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Lemma (CyclicGroupIdentity)
   Suppose 
-    g is an element of C₁
+    g is an element of 𝘊₁
   Then
-    g ∙ e₀ = g = e₀ ∙ g
+    g ∙ 𝘦₀ = g = 𝘦₀ ∙ g
   Proof
-    g is an element of C₁ iff g = e₀ by CyclicGroupElement
-    g is an element of C₁
-    g = e₀ by BiconditionalImplicationLeftElimination
-    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
-    e₀ = e₀ ∙ e₀
-    e₀ ∙ e₀ = e₀ = e₀ ∙ e₀ by DoubleEqualityIntroduction
+    g is an element of 𝘊₁ 𝘪𝘧𝘧 g = 𝘦₀ by CyclicGroupElement
+    g is an element of 𝘊₁
+    g = 𝘦₀ by BiconditionalImplicationLeftElimination
+    𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
+    𝘦₀ = 𝘦₀ ∙ 𝘦₀
+    𝘦₀ ∙ 𝘦₀ = 𝘦₀ = 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
   Therefore
-    g ∙ e₀ = g = e₀ ∙ g
+    g ∙ 𝘦₀ = g = 𝘦₀ ∙ g
 
 Lemma (CyclicGroupIdentityElementsCanonicalForm)
-  e₀ is an identity element of C₁
+  𝘦₀ is an identity element of 𝘊₁
   Proof
-    ∘_C₁ is an operation of C₁ by CyclicGroupOperations
-    ∙ = ∘_C₁ by CyclicGroupOperation
-    ∙ is an operation of C₁
-    e₀ is an identity element of C₁ iff [C₁, ∙, e₀] satisfies GroupIdentity by GroupIdentityElement
-    [C₁, ∙, e₀] satisfies GroupIdentity by CyclicGroupIdentity
+    ∘_𝘊₁ is an operation of 𝘊₁ by CyclicGroupOperations
+    ∙ = ∘_𝘊₁ by CyclicGroupOperation
+    ∙ is an operation of 𝘊₁
+    𝘦₀ is an identity element of 𝘊₁ 𝘪𝘧𝘧 [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by GroupIdentityElement
+    [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by CyclicGroupIdentity
   Therefore
-    e₀ is an identity element of C₁ by BiconditionalImplicationRightElimination
+    𝘦₀ is an identity element of 𝘊₁ by BiconditionalImplicationRightElimination
 
 Lemma (CyclicGroupIdentityElements)
-  𝓮_C₁ is an identity element of C₁
+  𝓮_𝘊₁ is an identity element of 𝘊₁
   Proof
-    e₀ is an identity element of C₁ by CyclicGroupIdentityElementsCanonicalForm
-    e₀ = 𝓮_C₁ by CyclicGroupIdentityElement
+    𝘦₀ is an identity element of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
+    𝘦₀ = 𝓮_𝘊₁ by CyclicGroupIdentityElement
   Therefore
-    𝓮_C₁ is an identity element of C₁
+    𝓮_𝘊₁ is an identity element of 𝘊₁

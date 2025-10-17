@@ -1,56 +1,56 @@
-Variable f:Element
-Variable g:Element
-Variable h:Element
+Variable f:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable h:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Lemma (CyclicGroupClosure)
   Suppose 
-    f is an element of C₁
-    g is an element of C₁
+    f is an element of 𝘊₁
+    g is an element of 𝘊₁
   Then
-    g ∙ f is an element of C₁
+    g ∙ f is an element of 𝘊₁
   Proof
-    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
-    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
-    e₀ ∙ e₀ is an element of C₁
-    f = e₀ by CyclicGroupElementsAreEqual
-    g = e₀ by CyclicGroupElementsAreEqual
+    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
+    𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
+    𝘦₀ ∙ 𝘦₀ is an element of 𝘊₁
+    f = 𝘦₀ by CyclicGroupElementsAreEqual
+    g = 𝘦₀ by CyclicGroupElementsAreEqual
   Therefore
-    g ∙ f is an element of C₁
+    g ∙ f is an element of 𝘊₁
 
 Lemma (CyclicGroupAssociativity)
   Suppose 
-    f is an element of C₁
-    g is an element of C₁
-    h is an element of C₁
+    f is an element of 𝘊₁
+    g is an element of 𝘊₁
+    h is an element of 𝘊₁
   Then
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
   Proof
-    e₀ is an element of C₁ by CyclicGroupElementCanonicalForm
-    e₀ ∙ e₀ = e₀ by CyclicGroupLaw
-    e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀
-    (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀
-    e₀ ∙ (e₀ ∙ e₀) = (e₀ ∙ e₀) ∙ e₀ = e₀ ∙ e₀ ∙ e₀ by DoubleEqualityIntroduction
-    f = e₀ by CyclicGroupElementsAreEqual
-    g = e₀ by CyclicGroupElementsAreEqual
-    h = e₀ by CyclicGroupElementsAreEqual
+    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
+    𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
+    𝘦₀ ∙ (𝘦₀ ∙ 𝘦₀) = (𝘦₀ ∙ 𝘦₀) ∙ 𝘦₀
+    (𝘦₀ ∙ 𝘦₀) ∙ 𝘦₀ = 𝘦₀ ∙ 𝘦₀ ∙ 𝘦₀
+    𝘦₀ ∙ (𝘦₀ ∙ 𝘦₀) = (𝘦₀ ∙ 𝘦₀) ∙ 𝘦₀ = 𝘦₀ ∙ 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
+    f = 𝘦₀ by CyclicGroupElementsAreEqual
+    g = 𝘦₀ by CyclicGroupElementsAreEqual
+    h = 𝘦₀ by CyclicGroupElementsAreEqual
   Therefore
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
 
 Lemma (CyclicGroupOperationsCanonicalForm)
-  ∙ is an operation of C₁
+  ∙ is an operation of 𝘊₁
   Proof
-    [C₁, ∙] satisfies GroupClosure by CyclicGroupClosure
-    [C₁, ∙] satisfies GroupAssociativity by CyclicGroupAssociativity
-    [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity by ConjunctionIntroduction
-    ∙ is an operation of C₁ iff ([C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity) by GroupOperation
-    [C₁, ∙] satisfies GroupClosure ∧ [C₁, ∙] satisfies GroupAssociativity
+    [𝘊₁, ∙] satisfies GroupClosure by CyclicGroupClosure
+    [𝘊₁, ∙] satisfies GroupAssociativity by CyclicGroupAssociativity
+    [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity by ConjunctionIntroduction
+    ∙ is an operation of 𝘊₁ 𝘪𝘧𝘧 ([𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity) by GroupOperation
+    [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity
   Therefore
-    ∙ is an operation of C₁ by BiconditionalImplicationRightElimination
+    ∙ is an operation of 𝘊₁ by BiconditionalImplicationRightElimination
 
 Lemma (CyclicGroupOperations)
-  ∘_C₁ is an operation of C₁
+  ∘_𝘊₁ is an operation of 𝘊₁
   Proof
-    ∙ is an operation of C₁ by CyclicGroupOperationsCanonicalForm
-    ∙ = ∘_C₁ by CyclicGroupOperation
+    ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
+    ∙ = ∘_𝘊₁ by CyclicGroupOperation
   Therefore
-    ∘_C₁ is an operation of C₁
+    ∘_𝘊₁ is an operation of 𝘊₁

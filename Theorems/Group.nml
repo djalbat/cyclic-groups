@@ -1,8 +1,8 @@
 Theorem (CyclicGroups)
-  C₁:Group
+  𝘊₁:𝖦𝗋𝗈𝗎𝗉
   Proof
-    [C₁] satisfies GroupOperations by CyclicGroupOperations
-    [C₁] satisfies GroupIdentityElements by CyclicGroupIdentityElements
-    [C₁] satisfies GroupInverses by CyclidGroupInverses
+    [𝘊₁] satisfies GroupOperations by CyclicGroupOperations
+    [𝘊₁] satisfies GroupIdentityElements by CyclicGroupIdentityElements
+    [𝘊₁] satisfies GroupInverses by CyclidGroupInverses
   Therefore
-    C₁:Group by Groups
+    𝘊₁:𝖦𝗋𝗈𝗎𝗉 by Groups

@@ -1,21 +1,20 @@
-Variable g:Element
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Lemma (CyclicGroupElementsAreEqual)
   Suppose 
-    g is an element of C₁
+    g is an element of 𝘊₁
   Then
-    g = e₀
+    g = 𝘦₀
   Proof
-    g is an element of C₁ iff g = e₀ by CyclicGroupElement
-    g is an element of C₁
+    g is an element of 𝘊₁ 𝘪𝘧𝘧 g = 𝘦₀ by CyclicGroupElement
+    g is an element of 𝘊₁
   Therefore
-    g = e₀ by BiconditionalImplicationLeftElimination
+    g = 𝘦₀ by BiconditionalImplicationLeftElimination
 
 Lemma (CyclicGroupElementCanonicalForm)
-  e₀ is an element of C₁
+  𝘦₀ is an element of 𝘊₁
   Proof
-    e₀ is an element of C₁ iff e₀ = e₀ by CyclicGroupElement
-    e₀ = e₀
+    𝘦₀ is an element of 𝘊₁ 𝘪𝘧𝘧 𝘦₀ = 𝘦₀ by CyclicGroupElement
+    𝘦₀ = 𝘦₀
   Therefore
-    e₀ is an element of C₁ by BiconditionalImplicationRightElimination
-
+    𝘦₀ is an element of 𝘊₁ by BiconditionalImplicationRightElimination
