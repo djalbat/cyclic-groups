@@ -42,7 +42,7 @@ Lemma (CyclicGroupOperationsCanonicalForm)
     [𝘊₁, ∙] satisfies GroupClosure by CyclicGroupClosure
     [𝘊₁, ∙] satisfies GroupAssociativity by CyclicGroupAssociativity
     [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity by ConjunctionIntroduction
-    ∙ is an operation of 𝘊₁ 𝘪𝘧𝘧 ([𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity) by GroupOperation
+    ∙ is an operation of 𝘊₁ 𝗂𝖿𝖿 ([𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity) by GroupOperation
     [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity
   Therefore
     ∙ is an operation of 𝘊₁ by BiconditionalImplicationRightElimination

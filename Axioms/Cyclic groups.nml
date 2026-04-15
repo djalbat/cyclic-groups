@@ -1,7 +1,7 @@
 Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Axiom (CyclicGroupElement)
-  g is an element of 𝘊₁ 𝘪𝘧𝘧 g = 𝘦₀
+  g is an element of 𝘊₁ 𝗂𝖿𝖿 g = 𝘦₀
 
 Axiom (CyclicGroupLaw)
   𝘦₀ ∙ 𝘦₀ = 𝘦₀

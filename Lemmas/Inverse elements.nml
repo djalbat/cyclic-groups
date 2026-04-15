@@ -9,7 +9,7 @@ Lemma (CyclidGroupInversesCanonicalForm)
     𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
     ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
     𝘦₀ is an identity element of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
-    𝘦₀ is an inverse of 𝘦₀ 𝘪𝘧𝘧 [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
+    𝘦₀ is an inverse of 𝘦₀ 𝗂𝖿𝖿 [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
     [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy
   Therefore
     𝘦₀ is an inverse of 𝘦₀ by BiconditionalImplicationRightElimination

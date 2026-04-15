@@ -6,7 +6,7 @@ Lemma (CyclicGroupIdentity)
   Then
     g ∙ 𝘦₀ = g = 𝘦₀ ∙ g
   Proof
-    g is an element of 𝘊₁ 𝘪𝘧𝘧 g = 𝘦₀ by CyclicGroupElement
+    g is an element of 𝘊₁ 𝗂𝖿𝖿 g = 𝘦₀ by CyclicGroupElement
     g is an element of 𝘊₁
     g = 𝘦₀ by BiconditionalImplicationLeftElimination
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
@@ -21,7 +21,7 @@ Lemma (CyclicGroupIdentityElementsCanonicalForm)
     ∘_𝘊₁ is an operation of 𝘊₁ by CyclicGroupOperations
     ∙ = ∘_𝘊₁ by CyclicGroupOperation
     ∙ is an operation of 𝘊₁
-    𝘦₀ is an identity element of 𝘊₁ 𝘪𝘧𝘧 [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by GroupIdentityElement
+    𝘦₀ is an identity element of 𝘊₁ 𝗂𝖿𝖿 [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by GroupIdentityElement
     [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by CyclicGroupIdentity
   Therefore
     𝘦₀ is an identity element of 𝘊₁ by BiconditionalImplicationRightElimination
