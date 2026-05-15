@@ -8,7 +8,7 @@ Lemma (CyclicGroupIdentity)
   Proof
     g is an element of 𝘊₁ 𝗂𝖿𝖿 g = 𝘦₀ by CyclicGroupElement
     g is an element of 𝘊₁
-    g = 𝘦₀ by BiconditionalImplicationLeftElimination
+    g = 𝘦₀ by BiconditionalImplicationRightElimination
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
     𝘦₀ = 𝘦₀ ∙ 𝘦₀
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ = 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
@@ -24,7 +24,7 @@ Lemma (CyclicGroupIdentityElementsCanonicalForm)
     𝘦₀ is an identity element of 𝘊₁ 𝗂𝖿𝖿 [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by GroupIdentityElement
     [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by CyclicGroupIdentity
   Therefore
-    𝘦₀ is an identity element of 𝘊₁ by BiconditionalImplicationRightElimination
+    𝘦₀ is an identity element of 𝘊₁ by BiconditionalImplicationLeftElimination
 
 Lemma (CyclicGroupIdentityElements)
   𝓮_𝘊₁ is an identity element of 𝘊₁

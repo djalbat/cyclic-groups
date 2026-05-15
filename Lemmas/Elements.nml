@@ -9,7 +9,7 @@ Lemma (CyclicGroupElementsAreEqual)
     g is an element of 𝘊₁ 𝗂𝖿𝖿 g = 𝘦₀ by CyclicGroupElement
     g is an element of 𝘊₁
   Therefore
-    g = 𝘦₀ by BiconditionalImplicationLeftElimination
+    g = 𝘦₀ by BiconditionalImplicationRightElimination
 
 Lemma (CyclicGroupElementCanonicalForm)
   𝘦₀ is an element of 𝘊₁
@@ -17,4 +17,4 @@ Lemma (CyclicGroupElementCanonicalForm)
     𝘦₀ is an element of 𝘊₁ 𝗂𝖿𝖿 𝘦₀ = 𝘦₀ by CyclicGroupElement
     𝘦₀ = 𝘦₀
   Therefore
-    𝘦₀ is an element of 𝘊₁ by BiconditionalImplicationRightElimination
+    𝘦₀ is an element of 𝘊₁ by BiconditionalImplicationLeftElimination

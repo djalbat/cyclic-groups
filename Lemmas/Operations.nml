@@ -45,7 +45,7 @@ Lemma (CyclicGroupOperationsCanonicalForm)
     ∙ is an operation of 𝘊₁ 𝗂𝖿𝖿 ([𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity) by GroupOperation
     [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity
   Therefore
-    ∙ is an operation of 𝘊₁ by BiconditionalImplicationRightElimination
+    ∙ is an operation of 𝘊₁ by BiconditionalImplicationLeftElimination
 
 Lemma (CyclicGroupOperations)
   ∘_𝘊₁ is an operation of 𝘊₁
