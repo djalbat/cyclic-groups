@@ -4,28 +4,28 @@ Variable h:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Lemma (CyclicGroupClosure)
   Suppose 
-    f is an element of 𝘊₁
-    g is an element of 𝘊₁
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Then
-    g ∙ f is an element of 𝘊₁
+    g ∙ f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Proof
-    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
+    𝘦₀ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupElementCanonicalForm
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
-    𝘦₀ ∙ 𝘦₀ is an element of 𝘊₁
+    𝘦₀ ∙ 𝘦₀ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
     f = 𝘦₀ by CyclicGroupElementsAreEqual
     g = 𝘦₀ by CyclicGroupElementsAreEqual
   Therefore
-    g ∙ f is an element of 𝘊₁
+    g ∙ f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
 
 Lemma (CyclicGroupAssociativity)
   Suppose 
-    f is an element of 𝘊₁
-    g is an element of 𝘊₁
-    h is an element of 𝘊₁
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
+    h is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Then
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
   Proof
-    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
+    𝘦₀ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupElementCanonicalForm
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
     𝘦₀ ∙ (𝘦₀ ∙ 𝘦₀) = (𝘦₀ ∙ 𝘦₀) ∙ 𝘦₀
     (𝘦₀ ∙ 𝘦₀) ∙ 𝘦₀ = 𝘦₀ ∙ 𝘦₀ ∙ 𝘦₀
@@ -37,20 +37,20 @@ Lemma (CyclicGroupAssociativity)
     h ∙ (g ∙ f) = (h ∙ g) ∙ f = h ∙ g ∙ f
 
 Lemma (CyclicGroupOperationsCanonicalForm)
-  ∙ is an operation of 𝘊₁
+  ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁
   Proof
     [𝘊₁, ∙] satisfies GroupClosure by CyclicGroupClosure
     [𝘊₁, ∙] satisfies GroupAssociativity by CyclicGroupAssociativity
     [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity by ConjunctionIntroduction
-    ∙ is an operation of 𝘊₁ 𝗂𝖿𝖿 ([𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity) by GroupOperation
+    ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ 𝗂𝖿𝖿 ([𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity) by GroupOperation
     [𝘊₁, ∙] satisfies GroupClosure ∧ [𝘊₁, ∙] satisfies GroupAssociativity
   Therefore
-    ∙ is an operation of 𝘊₁ by BiconditionalImplicationLeftElimination
+    ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ by BiconditionalImplicationLeftElimination
 
 Lemma (CyclicGroupOperations)
-  ∘_𝘊₁ is an operation of 𝘊₁
+  ∘_𝘊₁ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁
   Proof
-    ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
+    ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ by CyclicGroupOperationsCanonicalForm
     ∙ = ∘_𝘊₁ by CyclicGroupOperation
   Therefore
-    ∘_𝘊₁ is an operation of 𝘊₁
+    ∘_𝘊₁ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁

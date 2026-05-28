@@ -1,32 +1,32 @@
 Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Lemma (CyclidGroupInversesCanonicalForm)
-  𝘦₀ is an inverse of 𝘦₀
+  𝘦₀ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝘦₀
   Proof
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
     𝘦₀ = 𝘦₀ ∙ 𝘦₀
     𝘦₀ ∙ 𝘦₀ = 𝘦₀ = 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
-    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
-    ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
-    𝘦₀ is an identity element of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
-    𝘦₀ is an inverse of 𝘦₀ 𝗂𝖿𝖿 [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
+    𝘦₀ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupElementCanonicalForm
+    ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ by CyclicGroupOperationsCanonicalForm
+    𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
+    𝘦₀ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝘦₀ 𝗂𝖿𝖿 [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy by GroupInverse
     [∙, 𝘦₀, 𝘦₀, 𝘦₀] satisfies GroupInverseDoubleEqualiy
   Therefore
-    𝘦₀ is an inverse of 𝘦₀ by BiconditionalImplicationLeftElimination
+    𝘦₀ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝘦₀ by BiconditionalImplicationLeftElimination
 
 Lemma (CyclidGroupInverses)
   Suppose
-    g is an element of 𝘊₁
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Then
-    g⁻¹ is an element of 𝘊₁
+    g⁻¹ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Proof
     g = 𝘦₀ by CyclicGroupElementsAreEqual
-    𝘦₀ is an element of 𝘊₁ by CyclicGroupElementCanonicalForm
-    ∙ is an operation of 𝘊₁ by CyclicGroupOperationsCanonicalForm
-    𝘦₀ is an identity element of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
-    𝘦₀⁻¹ is an inverse of 𝘦₀ by GroupInverseCanoicalForm
-    𝘦₀ is an inverse of 𝘦₀ by CyclidGroupInversesCanonicalForm
+    𝘦₀ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupElementCanonicalForm
+    ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ by CyclicGroupOperationsCanonicalForm
+    𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
+    𝘦₀⁻¹ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝘦₀ by GroupInverseCanoicalForm
+    𝘦₀ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝘦₀ by CyclidGroupInversesCanonicalForm
     𝘦₀ = 𝘦₀⁻¹ by GroupInversesAreUnique
     g = g⁻¹
   Therefore
-    g⁻¹ is an element of 𝘊₁
+    g⁻¹ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
