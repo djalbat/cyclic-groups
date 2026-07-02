@@ -4,16 +4,16 @@ Lemma (CyclicGroupIdentity)
   Suppose 
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Then
-    g ∙ 𝘦₀ = g = 𝘦₀ ∙ g
+    g`∙`𝘦₀ = g = 𝘦₀`∙`g
   Proof
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ 𝗂𝖿𝖿 g = 𝘦₀ by CyclicGroupElement
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
     g = 𝘦₀ by BiconditionalImplicationRightElimination
-    𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
-    𝘦₀ = 𝘦₀ ∙ 𝘦₀
-    𝘦₀ ∙ 𝘦₀ = 𝘦₀ = 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
+    𝘦₀`∙`𝘦₀ = 𝘦₀ by CyclicGroupLaw
+    𝘦₀ = 𝘦₀`∙`𝘦₀
+    𝘦₀`∙`𝘦₀ = 𝘦₀ = 𝘦₀`∙`𝘦₀ by DoubleEqualityIntroduction
   Therefore
-    g ∙ 𝘦₀ = g = 𝘦₀ ∙ g
+    g`∙`𝘦₀ = g = 𝘦₀`∙`g
 
 Lemma (CyclicGroupIdentityElementsCanonicalForm)
   𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁

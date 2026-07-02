@@ -3,9 +3,9 @@ Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 Lemma (CyclidGroupInversesCanonicalForm)
   𝘦₀ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝘦₀
   Proof
-    𝘦₀ ∙ 𝘦₀ = 𝘦₀ by CyclicGroupLaw
-    𝘦₀ = 𝘦₀ ∙ 𝘦₀
-    𝘦₀ ∙ 𝘦₀ = 𝘦₀ = 𝘦₀ ∙ 𝘦₀ by DoubleEqualityIntroduction
+    𝘦₀`∙`𝘦₀ = 𝘦₀ by CyclicGroupLaw
+    𝘦₀ = 𝘦₀`∙`𝘦₀
+    𝘦₀`∙`𝘦₀ = 𝘦₀ = 𝘦₀`∙`𝘦₀ by DoubleEqualityIntroduction
     𝘦₀ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupElementCanonicalForm
     ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ by CyclicGroupOperationsCanonicalForm
     𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm

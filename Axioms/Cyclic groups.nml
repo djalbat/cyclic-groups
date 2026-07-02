@@ -4,7 +4,7 @@ Axiom (CyclicGroupElement)
   g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ 𝗂𝖿𝖿 g = 𝘦₀
 
 Axiom (CyclicGroupLaw)
-  𝘦₀ ∙ 𝘦₀ = 𝘦₀
+  𝘦₀`∙`𝘦₀ = 𝘦₀
 
 Axiom (CyclicGroupOperation)
   ∙ = ∘_𝘊₁
