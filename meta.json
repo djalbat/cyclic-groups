@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/djalbat/cyclic-groups",
   "dependencies": {
     "groups": "3.0",
