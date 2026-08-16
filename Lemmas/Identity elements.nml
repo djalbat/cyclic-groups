@@ -16,20 +16,20 @@ Lemma (CyclicGroupIdentity)
     g`∙`𝘦₀ = g = 𝘦₀`∙`g
 
 Lemma (CyclicGroupIdentityElementsCanonicalForm)
-  𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
+  𝘦₀ is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Proof
     ∘_𝘊₁ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁ by CyclicGroupOperations
     ∙ = ∘_𝘊₁ by CyclicGroupOperation
     ∙ is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝘊₁
-    𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ 𝗂𝖿𝖿 [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by GroupIdentityElement
+    𝘦₀ is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ 𝗂𝖿𝖿 [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by GroupIdentityElement
     [𝘊₁, ∙, 𝘦₀] satisfies GroupIdentity by CyclicGroupIdentity
   Therefore
-    𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by BiconditionalImplicationLeftElimination
+    𝘦₀ is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by BiconditionalImplicationLeftElimination
 
 Lemma (CyclicGroupIdentityElements)
-  𝓮_𝘊₁ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
+  𝓮_𝘊₁ is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
   Proof
-    𝘦₀ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
+    𝘦₀ is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁ by CyclicGroupIdentityElementsCanonicalForm
     𝘦₀ = 𝓮_𝘊₁ by CyclicGroupIdentityElement
   Therefore
-    𝓮_𝘊₁ is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
+    𝓮_𝘊₁ is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝘊₁
